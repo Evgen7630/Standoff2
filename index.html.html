@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+
+      </div>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link">Главная</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">О игре</a>
+          </li>
+          <li class="nav_item">
+            <a href="#video" class="nav_link">Видео</a>
+          </li>
+          <li class="nav_item">
+            <a href="#gallery" class="nav_link">Галерея</a>
+          </li>
+          <li class="nav_item">
+            <a href="#footer" class="nav_link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="burger">
+        <img src="img/Vector.svg" alt="Ой, не загрузилось" class="burger_lines">
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="home" id="home">
+      <div class="container">
+        <img src="img/img.svg" alt="" class="home_img">
+        <div class="home_info">
+          <h1 class="home_title">Standoff2</h1>
+          <p class="home_desc">Многопользовательская игра. Каждое оружие обладает различными характеристиками.
+          </p>
+          <button class="home_btn">Свяжись со мной</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="about_title">О игре</h1>
+      <div class="container">
+        <ul class="about_info">
+          <li class="about_item">
+            <h1 class="about_text">Графика</h1>
+            <div class="rating">
+              <div class="rating1"></div>
+            </div>
+          </li>
+          <li class="about_item">
+            <h1 class="about_text">Звук</h1>
+            <div class="rating">
+              <div class="rating2"></div>
+            </div>
+          </li>
+          <li class="about_item">
+            <h1 class="about_text">Платформа</h1>
+            <div class="rating">
+              <div class="rating3"></div>
+            </div>
+          </li>
+        </ul>
+        <img src="img/img-group.svg" alt="" class="about_img">
+      </div>
+    </section>
+    <section class="video" id="video">
+      <h1 class="video_title">Видео</h1>
+      <div class="video_container">
+        <iframe class="video_content" src="https://www.youtube.com/embed/RqLwfdetp-g" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <h1 class="gallery_title">
+        Галерея
+      </h1>
+      <ul class="gallery_list">
+        <li class="gallery_item">
+          <a href="img/img1.svg" class="gallery_link lightzoom">
+            <img src="img/img1.svg" alt="" class="gallery_img">
+          </a>
+        </li>
+        <li class="gallery_item">
+          <a href="img/img2.svg" class="gallery_link lightzoom">
+            <img src="img/img2.svg" alt="" class="gallery_img">
+          </a>
+        </li>
+        <li class="gallery_item">
+          <a href="img/img3.svg" class="gallery_link lightzoom">
+            <img src="img/img3.svg" alt="" class="gallery_img">
+          </a>
+        </li>
+        <li class="gallery_item">
+          <a href="img/img4.svg" class="gallery_link lightzoom">
+            <img src="img/img4.svg" alt="" class="gallery_img">
+          </a>
+        </li>
+        <li class="gallery_item">
+          <a href="img/img5.svg" class="gallery_link lightzoom">
+            <img src="img/img5.svg" alt="" class="gallery_img">
+          </a>
+        </li>
+        <li class="gallery_item">
+          <a href="img/img6 (1).svg" class="gallery_link lightzoom">
+            <img src="img/img6 (1).svg" alt="" class="gallery_img">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer_conteiner">
+      <div class="footer_content">
+        <h1 class="footer_title">Zolotukhina Polina</h1>
+        <p class="footer_text">&copy;2023. Все права защищены</p>
+      </div>
+      <ul class="footer_list">
+        <li class="footer_item">
+          <a href="" class="footer_link">
+            <img src="img/телеграммизображ.jpg" alt="" class="footer_img">
+          </a>
+        </li>
+        <li class="footer_item">
+          <a href="" class="footer_link">
+            <img src="img/rfrhhmeq8dssd58dfsbp7715x0duyv7e.jpg" alt="" class="footer_img">
+          </a>
+        </li>
+        <li class="footer_item">
+          <a href="" class="footer_link">
+            <img src="img/discord-cover-banner.webp" alt="" class="footer_img">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+  <script type="text/javascript">
+    jQuery('.lightzoom').lightzoom({ speed: 400, viewTitle: true });
+  </script>
+</body>
+
+</html>

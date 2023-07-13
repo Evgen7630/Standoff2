@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    background: seashell;
+    gap: 403px;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.nav_list {
+    display: flex;
+    width: 628px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav_link {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    background: #FFFFFF;
+    padding: 30px 0;
+}
+
+.home_info {
+    width: 509.61px;
+}
+
+.home_title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0 0 20px;
+    color: #000000;
+}
+
+.home_desc {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 50px;
+    color: #000000;
+}
+
+.home_btn {
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    width: 224px;
+    height: 47px;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.about {
+    padding: 30px 0;
+    background: #FFFFFF;
+}
+
+.about_title {
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.about_info {
+    width: 384px;
+    list-style: none;
+}
+
+.about_text {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.rating {
+    height: 10px;
+    background: #000000;
+}
+
+.rating1 {
+    height: 100%;
+    width: 90%;
+    background: #00C4F0;
+}
+
+.rating2 {
+    height: 100%;
+    width: 80%;
+    background: #00C4F0;
+}
+
+.rating3 {
+    height: 100%;
+    width: 70%;
+    background: #00C4F0;
+}
+
+.video {
+    padding: 30px 0;
+    background: #ffffff;
+}
+
+.video_title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 50px;
+}
+
+.video_container {
+    background: #E2E2E2;
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+    width: 970px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.video_content {
+    width: 881px;
+    height: 511px;
+    padding: 44px;
+}
+
+.gallery {
+    background: #FFFFFF;
+    padding: 30px 0;
+}
+
+.gallery_title {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #2C2C2C;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.gallery_list {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-evenly;
+
+}
+
+.gallery_item {
+    width: 33%;
+}
+
+.footer {
+    background: rgb(255, 255, 255);
+}
+
+.footer_title {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_conteiner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 244px;
+}
+
+.footer_img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.nav_link:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.burger {
+    background: transparent;
+    border: none;
+    display: none;
+}
+
+@media (max-width: 834px) {
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .container {
+        max-width: 603px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+}
